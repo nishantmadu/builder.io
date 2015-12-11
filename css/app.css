@@ -18,9 +18,10 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   padding: 1em;
-  border: 1px solid #A28CCC; }
+  border: 2px solid #A28CCC; }
   .btn-ouline:hover {
-    color: #A28CCC; }
+    color: #A28CCC;
+    margin-left: 2em; }
 
 #landing {
   background-color: #A28CCC;
@@ -42,7 +43,7 @@ body {
     margin: 0 0 10px;
     font-weight: normal; }
   #landing a.action {
-    background-color: #4CDADC;
+    background-color: secondary-color;
     width: 12.3em; }
   #landing .image-container {
     position: relative; }
@@ -104,5 +105,26 @@ p {
   padding: 5em 0em 15em;
   background-repeat: no-repeat;
   background-position: bottom center; }
+
+#take-look {
+  background-color: #A28CCC;
+  text-align: center;
+  padding: 3em 0;
+  color: #FFF; }
+
+h2 {
+  text-transform: uppercase; }
+
+p {
+  margin-bottom: 2em; }
+
+a.take-my-money {
+  background-color: #4CDADC; }
+
+a.free-account {
+  background-color: #FFF;
+  border-color: #FFF;
+  padding: 0.90em 3em;
+  margin-left: 1em; }
 
 /*# sourceMappingURL=app.css.map */
