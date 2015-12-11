@@ -1,9 +1,9 @@
 body {
   font-family: 'Sintony', sans-serif;
-  color: #BFC4C8;
-  font-size: 1.2em; }
+  color: #BFC4C8; }
 
 .btn-solid {
+  background-color: #A28CCC;
   font-weight: bold;
   color: #FFF;
   border-radius: 2px;
@@ -97,5 +97,9 @@ body {
 p {
   font-size: 1.2em;
   margin-bottom: 0.5em; }
+
+#features {
+  background-color: #F8F8F6;
+  padding: 5em 0em 20em; }
 
 /*# sourceMappingURL=app.css.map */
