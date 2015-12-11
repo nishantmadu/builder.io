@@ -1,0 +1,27 @@
+#intro {
+text-align: center;
+padding: 2em 0;
+}
+.btn-solid {
+  font-weight: bold;
+  background-color: #4CDADC;
+  color: #FFF;
+  border-radius: 2px;
+  width: 12.3em;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.get-started {
+background-color: $primary-color;
+padding: 1em 3em;
+}
+.try-demo {
+  padding: 0.90em 3em;
+  margin-left: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}

@@ -1,5 +1,26 @@
 body {
-  font-family: 'Sintony', sans-serif; }
+  font-family: 'Sintony', sans-serif;
+  color: #BFC4C8;
+  font-size: 1.2em; }
+
+.btn-solid {
+  font-weight: bold;
+  color: #FFF;
+  border-radius: 2px;
+  text-transform: uppercase;
+  padding: 1em; }
+  .btn-solid:hover {
+    color: #FFF; }
+
+.btn-ouline {
+  color: #BFC4C8;
+  border-radius: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid #A28CCC; }
+  .btn-ouline:hover {
+    color: #A28CCC; }
 
 #landing {
   background-color: #A28CCC;
@@ -21,13 +42,8 @@ body {
     margin: 0 0 10px;
     font-weight: normal; }
   #landing a.action {
-    font-weight: bold;
     background-color: #4CDADC;
-    color: #FFF;
-    border-radius: 2px;
-    width: 12.3em;
-    text-transform: uppercase;
-    font-size: 0.9em; }
+    width: 12.3em; }
   #landing .image-container {
     position: relative; }
     #landing .image-container img {
@@ -57,4 +73,29 @@ body {
       background-color: rgba(0, 0, 0, 0.6);
       padding: 0.3em; }
 
-/*# sourceMappingURL=styles.css.map */
+#intro {
+  text-align: center;
+  padding: 2em 0; }
+
+.btn-solid {
+  font-weight: bold;
+  background-color: #4CDADC;
+  color: #FFF;
+  border-radius: 2px;
+  width: 12.3em;
+  text-transform: uppercase;
+  font-size: 0.9em; }
+
+.get-started {
+  background-color: #A28CCC;
+  padding: 1em 3em; }
+
+.try-demo {
+  padding: 0.90em 3em;
+  margin-left: 1em; }
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 0.5em; }
+
+/*# sourceMappingURL=app.css.map */
