@@ -127,4 +127,15 @@ a.free-account {
   padding: 0.90em 3em;
   margin-left: 1em; }
 
+#vid_dem {
+  position: relative; }
+  #vid_dem img {
+    width: 100%; }
+  #vid_dem i {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    font-size: 8vw;
+    transform: translate(-50%, -50%); }
+
 /*# sourceMappingURL=app.css.map */
