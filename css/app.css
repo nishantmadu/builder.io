@@ -133,9 +133,20 @@ a.free-account {
     width: 100%; }
   #vid_dem i {
     position: absolute;
+    color: #FFF;
     top: 55%;
     left: 50%;
     font-size: 8vw;
     transform: translate(-50%, -50%); }
+
+#customization {
+  text-align: center;
+  padding: 3em 0; }
+  #customization i {
+    font-size: 2em;
+    color: #A28CCC; }
+  #customization a {
+    color: #A28CCC;
+    font-weight: bold; }
 
 /*# sourceMappingURL=app.css.map */
