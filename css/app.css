@@ -141,7 +141,8 @@ a.free-account {
 
 #customization {
   text-align: center;
-  padding: 3em 0; }
+  padding: 3em 0;
+  background-color: #F8F8F6; }
   #customization i {
     font-size: 2em;
     color: #A28CCC; }
